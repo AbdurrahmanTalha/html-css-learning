@@ -19,15 +19,30 @@ body {
 }
 .details {
   padding: 20px 70px;
-  border-radius: 5px;
+  border-radius: 100px;
   background-image: linear-gradient(45deg, green, red, green);
   font-size: 18px;
   font-weight: bold;
+  text-transform: uppercase;
   color: #fff;
   border: none;
   margin-top: 15px;
+  transition:1s;
+  -webkit-transition:1s;
+  -moz-transition:1s;
+  -ms-transition:1s;
+  -o-transition:1s;
+  -webkit-border-radius: 1005px;
+  -moz-border-radius: 1005px;
+  -ms-border-radius: 1005px;
+  -o-border-radius: 1005px;
 }
-.divission {
+.details:hover{
+  background-color: tomato;
+  background-image:none
+  
+}
+.division {
   text-align: center;
   width: 90%;
   margin: auto;
@@ -59,6 +74,15 @@ body {
   border: none;
   background-color: aqua;
   font: 16px;
+  transition:1s;
+  border-radius:100px;
+  -webkit-border-radius:1005px;
+  -moz-border-radius:1005px;
+  -ms-border-radius:1005px;
+  -o-border-radius:1005px;
+}
+.div-btn:hover{
+  background-color:tomato;
 }
 
 .footer-content {
